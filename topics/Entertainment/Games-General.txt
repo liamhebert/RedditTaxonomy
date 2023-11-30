@@ -1,0 +1,6 @@
+lego
+boardgames
+rpg
+chess
+poker
+jrpg

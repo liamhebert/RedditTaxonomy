@@ -1,0 +1,9 @@
+gadgets
+raspberry_pi
+electronics
+arduino
+trackers
+gopro
+blender
+amazonecho
+RetroPie

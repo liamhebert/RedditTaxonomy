@@ -1,0 +1,5 @@
+watches
+lockpicking
+knives
+specializedtools
+knifeclub
