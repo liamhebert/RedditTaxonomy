@@ -1,4 +1,4 @@
-# CommunityTaxonomy
+# Reddit Taxonomy
 Curated Hierarchical Topic Taxonomy of Reddit Subreddits by initialized by posts on r/ListOfSubreddits. (currently 2900+ subreddits!)
 
 Inside topics, each .txt file contains a list of subreddits which belong to that topic. Folders represent a subtopic with that topic (ex: 'Animals/Mammals/Cats.txt').
