@@ -13,7 +13,7 @@ Contributors are welcome to expand this list!
     ├───Animals
     │   │   Birds.txt
     │   │   Mammals.txt
-    │   │   NA.txt
+    │   │   Other.txt
     │   │
     │   └───Mammals
     │       │   Cats.txt
