@@ -9,30 +9,34 @@ Contributors are welcome to expand this list!
 
 ## Current Taxonomy
 ```
-topics
-    │   Animals.txt
-    │   NSFW.txt
-    │   Technology.txt
-    │
+└───topics
     ├───Animals
-    │   │   Birds-General.txt
-    │   │   Mammals-General.txt
+    │   │   Birds.txt
+    │   │   Mammals.txt
+    │   │   NA.txt
     │   │
     │   └───Mammals
-    │           Cats.txt
-    │           Dogs.txt
+    │       │   Cats.txt
+    │       │   Dogs.txt
+    │       │
+    │       └───Dogs
+    │               Breeds.txt
     │
     ├───Discussion
-    │   │   Advice-General.txt
-    │   │   AMA-General.txt
-    │   │   Games-General.txt
-    │   │   General-General.txt
-    │   │   Question_Answer-General.txt
-    │   │   Stories-General.txt
-    │   │   Support-General.txt
+    │   │   Advice.txt
+    │   │   AMA.txt
+    │   │   Games.txt
+    │   │   General.txt
+    │   │   Question_Answer.txt
+    │   │   Stories.txt
+    │   │   Support.txt
     │   │
     │   ├───Question_Answer
-    │   │       Ask______.txt
+    │   │   │   Ask______.txt
+    │   │   │
+    │   │   └───Ask______
+    │   │           Occupation.txt
+    │   │           Sex_Gender.txt
     │   │
     │   └───Stories
     │           Customer Service.txt
@@ -40,68 +44,83 @@ topics
     │           Scary_Weird.txt
     │
     ├───Educational
-    │   │   Anthropology-General.txt
-    │   │   Art-General.txt
-    │   │   Computer Science_Engineering-General.txt
-    │   │   Economics-General.txt
-    │   │   Educational-General.txt
-    │   │   Environment-General.txt
-    │   │   History-General.txt
-    │   │   Language-General.txt
-    │   │   Law-General.txt
-    │   │   Math-General.txt
-    │   │   Medicine-General.txt
-    │   │   Psychology-General.txt
-    │   │   Science-General.txt
+    │   │   Anthropology.txt
+    │   │   Art.txt
+    │   │   Computer Science_Engineering.txt
+    │   │   Economics.txt
+    │   │   Educational.txt
+    │   │   Environment.txt
+    │   │   History.txt
+    │   │   Language.txt
+    │   │   Law.txt
+    │   │   Math.txt
+    │   │   Medicine.txt
+    │   │   Psychology.txt
+    │   │   Science.txt
     │   │
     │   ├───Art
     │   │       Painting.txt
     │   │       Reddit.txt
     │   │
     │   ├───Computer Science_Engineering
-    │   │       Coding.txt
+    │   │   │   Coding.txt
+    │   │   │
+    │   │   └───Coding
+    │   │           Python.txt
     │   │
     │   ├───Economics
     │   │       Business.txt
     │   │       Stocks.txt
     │   │
     │   ├───Educational
-    │   │       Facts.txt
-    │   │       Questions.txt
+    │   │   │   Facts.txt
+    │   │   │   Questions.txt
+    │   │   │
+    │   │   └───Questions
+    │   │           Explain Like....txt
     │   │
     │   ├───History
     │   │       Historical Images.txt
     │   │
     │   └───Science
-    │           Astronomy_Aliens.txt
-    │           Biology.txt
-    │           Chemistry.txt
-    │           Physics.txt
+    │       │   Astronomy_Aliens.txt
+    │       │   Biology.txt
+    │       │   Chemistry.txt
+    │       │   Physics.txt
+    │       │
+    │       └───Astronomy_Aliens
+    │               Companies.txt
     │
     ├───Entertainment
-    │   │   Anime_Manga-General.txt
-    │   │   Books_Writing-General.txt
-    │   │   Celebrities-General.txt
-    │   │   Cosplay-General.txt
-    │   │   Games-General.txt
-    │   │   General-General.txt
-    │   │   Genres-General.txt
-    │   │   Internet_Apps-General.txt
-    │   │   Movies-General.txt
-    │   │   Music-General.txt
-    │   │   Sports-General.txt
-    │   │   TV-General.txt
-    │   │   Video games-General.txt
+    │   │   Anime_Manga.txt
+    │   │   Books_Writing.txt
+    │   │   Celebrities.txt
+    │   │   Cosplay.txt
+    │   │   Games.txt
+    │   │   General.txt
+    │   │   Genres.txt
+    │   │   Internet_Apps.txt
+    │   │   Movies.txt
+    │   │   Music.txt
+    │   │   Sports.txt
+    │   │   TV.txt
+    │   │   Video games.txt
     │   │
     │   ├───Anime_Manga
     │   │       Individual Anime_manga.txt
     │   │
     │   ├───Books_Writing
-    │   │       Comics.txt
-    │   │       Individual books_stories_comics.txt
+    │   │   │   Comics.txt
+    │   │   │   Individual books_stories_comics.txt
+    │   │   │
+    │   │   └───Individual books_stories_comics
+    │   │           Game of Thrones.txt
+    │   │           Lord of the Rings.txt
     │   │
     │   ├───Celebrities
-    │   │       Individual Celebrities.txt
+    │   │   └───Individual Celebrities
+    │   │           Female.txt
+    │   │           Male.txt
     │   │
     │   ├───Games
     │   │       Dungeons and Dragons.txt
@@ -112,76 +131,143 @@ topics
     │   │       Sci-fi.txt
     │   │
     │   ├───Internet_Apps
-    │   │       4chan.txt
-    │   │       Facebook.txt
-    │   │       Internet Dating.txt
-    │   │       Internet Politics.txt
-    │   │       Live Streaming.txt
-    │   │       Podcasts.txt
-    │   │       Tumblr.txt
-    │   │       Twitter.txt
-    │   │       YouTube.txt
+    │   │   │   4chan.txt
+    │   │   │   Facebook.txt
+    │   │   │   Internet Dating.txt
+    │   │   │   Internet Politics.txt
+    │   │   │   Live Streaming.txt
+    │   │   │   Podcasts.txt
+    │   │   │   Tumblr.txt
+    │   │   │   Twitter.txt
+    │   │   │   YouTube.txt
+    │   │   │
+    │   │   └───YouTube
+    │   │           Individual YouTubers_Companies.txt
+    │   │           Pewdiepie.txt
+    │   │           Roosterteeth.txt
     │   │
     │   ├───Movies
-    │   │       Individual Movies_Series.txt
+    │   │   │   Individual Movies_Series.txt
+    │   │   │
+    │   │   └───Individual Movies_Series
+    │   │           Comic movies.txt
     │   │
     │   ├───Music
-    │   │       Artists.txt
-    │   │       Genres.txt
-    │   │       Instruments.txt
+    │   │   │   Artists.txt
+    │   │   │   Genres.txt
+    │   │   │   Instruments.txt
+    │   │   │
+    │   │   └───Genres
+    │   │           Electronic.txt
+    │   │           Hip Hop.txt
+    │   │           Metal.txt
+    │   │           Pop.txt
     │   │
     │   ├───Sports
-    │   │       American Football.txt
-    │   │       Baseball.txt
-    │   │       Basketball.txt
-    │   │       Boards.txt
-    │   │       Cars.txt
-    │   │       Fighting.txt
-    │   │       Hockey.txt
-    │   │       Olympics.txt
-    │   │       Soccer.txt
+    │   │   │   American Football.txt
+    │   │   │   Baseball.txt
+    │   │   │   Basketball.txt
+    │   │   │   Boards.txt
+    │   │   │   Cars.txt
+    │   │   │   Fighting.txt
+    │   │   │   Hockey.txt
+    │   │   │   Olympics.txt
+    │   │   │   Soccer.txt
+    │   │   │
+    │   │   ├───American Football
+    │   │   │       American Football Teams.txt
+    │   │   │
+    │   │   ├───Basketball
+    │   │   │       Teams.txt
+    │   │   │
+    │   │   └───Soccer
+    │   │           Soccer Teams.txt
     │   │
     │   ├───TV
-    │   │       Individual Shows.txt
-    │   │       Netflix Related.txt
+    │   │   │   Individual Shows.txt
+    │   │   │   Netflix Related.txt
+    │   │   │
+    │   │   └───Individual Shows
+    │   │           Animated.txt
+    │   │           Doctor Who.txt
+    │   │           Dragon Ball Z.txt
+    │   │           It's Always Sunny in Philadelphia.txt
+    │   │           Seinfeld.txt
     │   │
     │   └───Video games
-    │           Deals.txt
-    │           Game Systems_Consoles_Companies.txt
-    │           Individual Video Games_Series.txt
+    │       │   Deals.txt
+    │       │   Game Systems_Consoles_Companies.txt
+    │       │   Individual Video Games_Series.txt
+    │       │
+    │       ├───Game Systems_Consoles_Companies
+    │       │       Nintendo.txt
+    │       │       PC.txt
+    │       │       Sony.txt
+    │       │       
+    │       └───Individual Video Games_Series
+    │               Animal Crossing.txt
+    │               Borderlands.txt
+    │               Dark Souls.txt
+    │               Destiny.txt
+    │               Diablo.txt
+    │               Elder Scrolls.txt
+    │               Fallout.txt
+    │               Fire Emblem.txt
+    │               First Person Shooters (fps).txt
+    │               Fortnite.txt
+    │               Grand Theft Auto (GTA).txt
+    │               Hearthstone.txt
+    │               League of Legends.txt
+    │               Minecraft.txt
+    │               MMOs.txt
+    │               Overwatch.txt
+    │               Pokemon.txt
+    │               PUBG.txt
+    │               Red Dead Redemption.txt
+    │               Rocket League.txt
+    │               Runescape.txt
+    │               Sports.txt
+    │               Witcher.txt
+    │               Zelda.txt
     │
     ├───General Content
-    │   │   Gifs-General.txt
-    │   │   Images-General.txt
-    │   │   Videos-General.txt
+    │   │   Gifs.txt
+    │   │   Images.txt
+    │   │   Videos.txt
     │   │
     │   ├───Gifs
-    │   │       People.txt
-    │   │       Reaction.txt
-    │   │       Science.txt
+    │   │   │   People.txt
+    │   │   │   Reaction.txt
+    │   │   │   Science.txt
+    │   │   │
+    │   │   └───Science
+    │   │           Nature.txt
     │   │
     │   └───Images
-    │           Images_Gifs of Women (SFW).txt
-    │           Interesting.txt
-    │           Photoshop.txt
-    │           Redditors_Selfies.txt
-    │           Wallpapers.txt
+    │       │   Images_Gifs of Women (SFW).txt
+    │       │   Interesting.txt
+    │       │   Photoshop.txt
+    │       │   Redditors_Selfies.txt
+    │       │   Wallpapers.txt
+    │       │
+    │       └───Images_Gifs of Women (SFW)
+    │               Asian.txt
     │
     ├───Hobbies_Occupations
-    │   │   Aquariums-General.txt
-    │   │   Arts_Writing-General.txt
-    │   │   Automotive-General.txt
-    │   │   Design-General.txt
-    │   │   Fake it til you make it-General.txt
-    │   │   General-General.txt
-    │   │   Job finding-General.txt
-    │   │   Music-General.txt
-    │   │   Outdoors-General.txt
-    │   │   Photography_Film-General.txt
-    │   │   Planes-General.txt
-    │   │   Tech Related-General.txt
-    │   │   Tools-General.txt
-    │   │   Travel-General.txt
+    │   │   Aquariums.txt
+    │   │   Arts_Writing.txt
+    │   │   Automotive.txt
+    │   │   Design.txt
+    │   │   Fake it til you make it.txt
+    │   │   General.txt
+    │   │   Job finding.txt
+    │   │   Music.txt
+    │   │   Outdoors.txt
+    │   │   Photography_Film.txt
+    │   │   Planes.txt
+    │   │   Tech Related.txt
+    │   │   Tools.txt
+    │   │   Travel.txt
     │   │
     │   ├───Arts_Writing
     │   │       Writing.txt
@@ -203,46 +289,73 @@ topics
     │           Tech Support.txt
     │
     ├───Humor
-    │   │   General Humor-General.txt
-    │   │   Memes_Rage comics-General.txt
+    │   │   General Humor.txt
+    │   │   Memes_Rage comics.txt
     │   │
     │   ├───General Humor
     │   │       Jokes.txt
     │   │       Poor Quality or Bad Memes.txt
     │   │
     │   └───Memes_Rage comics
-    │           Foreign.txt
-    │           Memes.txt
-    │           Other Memes.txt
-    │           Rage Comics.txt
+    │       │   Foreign.txt
+    │       │   Memes.txt
+    │       │   Other Memes.txt
+    │       │   Rage Comics.txt
+    │       │
+    │       └───Memes
+    │               Anime.txt
+    │               ____irl.txt
     │
     ├───Lifestyle
-    │   │   Communities-General.txt
-    │   │   Exercise_Health-General.txt
-    │   │   Food-General.txt
-    │   │   General-General.txt
-    │   │   Money-General.txt
-    │   │   Relationships_Sex-General.txt
-    │   │   Religion_Beliefs-General.txt
-    │   │   Self-Improvement-General.txt
+    │   │   Communities.txt
+    │   │   Exercise_Health.txt
+    │   │   Food.txt
+    │   │   General.txt
+    │   │   Money.txt
+    │   │   Relationships_Sex.txt
+    │   │   Religion_Beliefs.txt
+    │   │   Self-Improvement.txt
     │   │
     │   ├───Communities
-    │   │       Body_Diet.txt
-    │   │       LGBT.txt
-    │   │       Parenting.txt
+    │   │   │   Body_Diet.txt
+    │   │   │   LGBT.txt
+    │   │   │   Parenting.txt
+    │   │   │
+    │   │   └───LGBT
+    │   │           Transgender.txt
     │   │
     │   ├───Drugs
-    │   │       Alcohol.txt
-    │   │       Marijuana.txt
-    │   │       Other drugs.txt
+    │   │   │   Alcohol.txt
+    │   │   │   Marijuana.txt
+    │   │   │   Other drugs.txt
+    │   │   │
+    │   │   └───Alcohol
+    │   │           Beer.txt
     │   │
     │   ├───Exercise_Health
-    │   │       Mental.txt
-    │   │       Physical.txt
+    │   │   │   Mental.txt
+    │   │   │   Physical.txt
+    │   │   │
+    │   │   └───Physical
+    │   │           Diet.txt
+    │   │           Exercise.txt
+    │   │           Keto.txt
+    │   │           Lifting_Weights.txt
+    │   │           Medicine_Disease.txt
+    │   │           Progress Pictures.txt
+    │   │           Running.txt
+    │   │           Weight_Body Shape Control.txt
     │   │
     │   ├───Fashion_Beauty
-    │   │       Body Image.txt
-    │   │       Fashion.txt
+    │   │   │   Body Image.txt
+    │   │   │   Fashion.txt
+    │   │   │
+    │   │   ├───Body Image
+    │   │   │       Hair.txt
+    │   │   │       Tattoos.txt
+    │   │   │
+    │   │   └───Fashion
+    │   │           Shoes.txt
     │   │
     │   ├───Food
     │   │       Cooking.txt
@@ -262,9 +375,12 @@ topics
     │   │       CryptoCurrency.txt
     │   │
     │   ├───Relationships_Sex
-    │   │       Family.txt
-    │   │       Relationships.txt
-    │   │       Sex.txt
+    │   │   │   Family.txt
+    │   │   │   Relationships.txt
+    │   │   │   Sex.txt
+    │   │   │
+    │   │   └───Relationships
+    │   │           Online Relationships.txt
     │   │
     │   └───Religion_Beliefs
     │           Atheism.txt
@@ -272,51 +388,52 @@ topics
     │           Philosophy.txt
     │
     ├───NSFW
-    │   │   Asian-General.txt
-    │   │   Ass-General.txt
-    │   │   Athlete-General.txt
-    │   │   Bikinis-General.txt
-    │   │   Boobs_Nipples-General.txt
-    │   │   Cam-General.txt
-    │   │   Celebrity-General.txt
-    │   │   Comics-General.txt
-    │   │   Costumes-General.txt
-    │   │   Cuck-General.txt
-    │   │   Cum inside-General.txt
-    │   │   Cum Location-General.txt
-    │   │   Curvy_Thick_THICC-General.txt
-    │   │   Dildos-General.txt
-    │   │   Dresses_Skirts-General.txt
-    │   │   Ebony-General.txt
-    │   │   Face-General.txt
-    │   │   Fit-General.txt
-    │   │   Ginger-General.txt
-    │   │   Gonewild-General.txt
-    │   │   Hair-General.txt
-    │   │   Hentai-General.txt
-    │   │   Large Penis-General.txt
-    │   │   Latina-General.txt
-    │   │   Legs_feet-General.txt
-    │   │   Looking for-General.txt
-    │   │   MILF-General.txt
-    │   │   Pants_Shorts-General.txt
-    │   │   Petite-General.txt
-    │   │   Positions-General.txt
-    │   │   Professional_Cam-General.txt
-    │   │   Pussy-General.txt
-    │   │   Redditors-General.txt
-    │   │   Skin-General.txt
-    │   │   Snapchat-General.txt
-    │   │   Social Media-General.txt
-    │   │   Stockings_Socks-General.txt
-    │   │   Teen-General.txt
-    │   │   Trash-General.txt
-    │   │   Underwear-General.txt
-    │   │   Video Games-General.txt
-    │   │   Waist_Tummy-General.txt
-    │   │   Wet women-General.txt
-    │   │   White-General.txt
-    │   │   Wives-General.txt
+    │   │   Asian.txt
+    │   │   Ass.txt
+    │   │   Athlete.txt
+    │   │   Bikinis.txt
+    │   │   Boobs_Nipples.txt
+    │   │   Cam.txt
+    │   │   Celebrity.txt
+    │   │   Comics.txt
+    │   │   Costumes.txt
+    │   │   Cuck.txt
+    │   │   Cum inside.txt
+    │   │   Cum Location.txt
+    │   │   Curvy_Thick_THICC.txt
+    │   │   Dildos.txt
+    │   │   Dresses_Skirts.txt
+    │   │   Ebony.txt
+    │   │   Face.txt
+    │   │   Fit.txt
+    │   │   Ginger.txt
+    │   │   Gonewild.txt
+    │   │   Hair.txt
+    │   │   Hentai.txt
+    │   │   Large Penis.txt
+    │   │   Latina.txt
+    │   │   Legs_feet.txt
+    │   │   Looking for.txt
+    │   │   MILF.txt
+    │   │   NA.txt
+    │   │   Pants_Shorts.txt
+    │   │   Petite.txt
+    │   │   Positions.txt
+    │   │   Professional_Cam.txt
+    │   │   Pussy.txt
+    │   │   Redditors.txt
+    │   │   Skin.txt
+    │   │   Snapchat.txt
+    │   │   Social Media.txt
+    │   │   Stockings_Socks.txt
+    │   │   Teen.txt
+    │   │   Trash.txt
+    │   │   Underwear.txt
+    │   │   Video Games.txt
+    │   │   Waist_Tummy.txt
+    │   │   Wet women.txt
+    │   │   White.txt
+    │   │   Wives.txt
     │   │
     │   ├───Asian
     │   │       Indian.txt
@@ -359,35 +476,49 @@ topics
     │           Thongs.txt
     │
     ├───Other
-    │   │   Conspiracy-General.txt
-    │   │   Cringe-General.txt
-    │   │   Cute-General.txt
-    │   │   Disgusting_Angering_Scary_Weird-General.txt
-    │   │   Free Stuff-General.txt
-    │   │   General-General.txt
-    │   │   Geography-General.txt
-    │   │   Hold My ____-General.txt
-    │   │   Meta-General.txt
-    │   │   Mind blowing-General.txt
-    │   │   Nature-General.txt
-    │   │   Nostalgia_Time-General.txt
-    │   │   Parodies-General.txt
-    │   │   SFWPorn Network-General.txt
-    │   │   Shitty-General.txt
-    │   │   Unexpected-General.txt
-    │   │   Visually Appealing-General.txt
-    │   │   Weird Feelings_Categorize Later-General.txt
+    │   │   Conspiracy.txt
+    │   │   Cringe.txt
+    │   │   Cute.txt
+    │   │   Disgusting_Angering_Scary_Weird.txt
+    │   │   Free Stuff.txt
+    │   │   General.txt
+    │   │   Geography.txt
+    │   │   Hold My ____.txt
+    │   │   Meta.txt
+    │   │   Mind blowing.txt
+    │   │   Nature.txt
+    │   │   Nostalgia_Time.txt
+    │   │   Parodies.txt
+    │   │   SFWPorn Network.txt
+    │   │   Shitty.txt
+    │   │   Unexpected.txt
+    │   │   Visually Appealing.txt
+    │   │   Weird Feelings_Categorize Later.txt
     │   │
     │   ├───Cringe
-    │   │       Called out.txt
-    │   │       Neckbeard.txt
+    │   │   │   Called out.txt
+    │   │   │   Neckbeard.txt
+    │   │   │
+    │   │   └───Neckbeard
+    │   │           Girls.txt
+    │   │           I Am Very.txt
+    │   │           Neckbeard.txt
+    │   │           Parents.txt
     │   │
     │   ├───Disgusting_Angering_Scary_Weird
-    │   │       Angering.txt
-    │   │       Cursed.txt
-    │   │       Edgy.txt
-    │   │       Judgy.txt
-    │   │       Scary (potentially NSFL).txt
+    │   │   │   Angering.txt
+    │   │   │   Cursed.txt
+    │   │   │   Edgy.txt
+    │   │   │   Judgy.txt
+    │   │   │   Scary (potentially NSFL).txt
+    │   │   │
+    │   │   ├───Cursed
+    │   │   │       Blessed.txt
+    │   │   │
+    │   │   └───Scary (potentially NSFL)
+    │   │           Creepy.txt
+    │   │           Imaginary.txt
+    │   │           Water is scary.txt
     │   │
     │   ├───Gender
     │   │       For Men.txt
@@ -397,21 +528,48 @@ topics
     │   │       Looking for something.txt
     │   │
     │   ├───Geography
-    │   │       Africa.txt
-    │   │       Asia.txt
-    │   │       Europe.txt
-    │   │       North America.txt
-    │   │       Oceania.txt
-    │   │       South America.txt
+    │   │   │   Africa.txt
+    │   │   │   Asia.txt
+    │   │   │   Europe.txt
+    │   │   │   Oceania.txt
+    │   │   │   South America.txt
+    │   │   │
+    │   │   ├───Asia
+    │   │   │       Japan.txt
+    │   │   │       Korea.txt
+    │   │   │
+    │   │   ├───Europe
+    │   │   │       France.txt
+    │   │   │       Germany.txt
+    │   │   │       Russia.txt
+    │   │   │       Sweden.txt
+    │   │   │       United Kingdom.txt
+    │   │   │
+    │   │   └───North America
+    │   │           California.txt
+    │   │           Canada.txt
+    │   │           Colorado.txt
+    │   │           Florida.txt
+    │   │           Mexico.txt
+    │   │           Texas.txt
+    │   │           USA
+    │   │           Washington.txt
     │   │
     │   ├───Meta
-    │   │       Administrative.txt
-    │   │       Apps.txt
-    │   │       Circlejerks.txt
-    │   │       Drama.txt
-    │   │       Negative.txt
-    │   │       Positive.txt
-    │   │       Subreddits.txt
+    │   │   │   Administrative.txt
+    │   │   │   Apps.txt
+    │   │   │   Circlejerks.txt
+    │   │   │   Drama.txt
+    │   │   │   Negative.txt
+    │   │   │   Positive.txt
+    │   │   │   Subreddits.txt
+    │   │   │
+    │   │   ├───Administrative
+    │   │   │       April Fools.txt
+    │   │   │
+    │   │   └───Subreddits
+    │   │           Moderating.txt
+    │   │           Subreddit Simulator.txt
     │   │
     │   ├───Nature
     │   │       Plants_Fungi.txt
@@ -419,22 +577,37 @@ topics
     │   │       Weather.txt
     │   │
     │   └───News_Politics
-    │           News.txt
-    │           Politics.txt
+    │       │   News.txt
+    │       │   Politics.txt
+    │       │
+    │       ├───News
+    │       │       Fake News.txt
+    │       │
+    │       └───Politics
+    │               Alt-Right.txt
+    │               Anti-Trump.txt
+    │               Capitalism.txt
+    │               Gender Politics.txt
+    │               Left.txt
     │
     └───Technology
-        │   3D Printing-General.txt
-        │   Business Tech-General.txt
-        │   Data-General.txt
-        │   Digital Currency-General.txt
-        │   Programming-General.txt
-        │   Sound-General.txt
+        │   3D Printing.txt
+        │   Business Tech.txt
+        │   Data.txt
+        │   Digital Currency.txt
+        │   NA.txt
+        │   Programming.txt
+        │   Sound.txt
         │
         └───Business Tech
-                Android products.txt
-                Apple Products.txt
-                Gadgets.txt
-                Google Products.txt
-                Linux.txt
-                Microsoft Products.txt
+            │   Android products.txt
+            │   Apple Products.txt
+            │   Gadgets.txt
+            │   Google Products.txt
+            │   Linux.txt
+            │   Microsoft Products.txt
+            │
+            └───Gadgets
+                    Hardware.txt
+                    Kodi.txt
 ```

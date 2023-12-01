@@ -1,5 +1,12 @@
-unitedkingdom
-britishproblems
-london
-ukpolitics
-casualuk
+europe
+ireland
+thenetherlands
+denmark
+italy
+norge
+polska
+suomi
+romania
+belgium
+scotland
+austria

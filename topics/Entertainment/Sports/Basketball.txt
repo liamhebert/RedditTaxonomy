@@ -1,6 +1,4 @@
-warriors
-lakers
-bostonceltics
-torontoraptors
-sixers
-chicagobulls
+nba
+collegebasketball
+nbastreams
+fantasybball

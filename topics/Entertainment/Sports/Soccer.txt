@@ -1,4 +1,7 @@
-gunners
-reddevils
-LiverpoolFC
-chelseafc
+soccer
+worldcup
+Bundesliga
+futbol
+soccerstreams
+MLS
+fantasypl

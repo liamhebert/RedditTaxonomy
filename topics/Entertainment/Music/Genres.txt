@@ -1,4 +1,7 @@
-spop
-kpop
-funkopop
-popheads
+classicalmusic
+jazz
+trap
+indieheads
+gamemusic
+outrun
+vaporwave

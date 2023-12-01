@@ -3,8 +3,7 @@ import pandas as pd
 
 def merge_into_csv(data, files, level=0):
     for file in files:
-        catagories = file.strip('.txt').split('\\')
-        print(file)
+        catagories = file[:-4].split('\\')
         primary = catagories[1]
         secondary = catagories[2] if len(catagories) > 2 else 'NA'
         tertiary = catagories[3] if len(catagories) > 3 else 'NA'

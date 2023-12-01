@@ -1,2 +1,9 @@
-python
-learnpython
+learnprogramming
+compsci
+java
+javascript
+coding
+machinelearning
+howtohack
+cpp
+artificial

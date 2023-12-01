@@ -1,6 +1,5 @@
-askwomen
-askmen
-askgaybros
-askredditafterdark
-asktransgender
-askmenover30
+AskReddit
+ShittyAskScience
+TrueAskReddit
+AskScienceFiction
+AskOuija

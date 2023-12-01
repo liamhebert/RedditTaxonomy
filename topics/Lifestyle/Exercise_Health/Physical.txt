@@ -1,5 +1,2 @@
-loseit
-bodyweightfitness
-gainit
-swoleacceptance
-flexibility
+Fitness
+xxfitness

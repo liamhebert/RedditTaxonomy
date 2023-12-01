@@ -1,10 +1,4 @@
-sony
-PS3
-playstation
-vita
-PSVR
-playstationplus
-ps5
-psp
-PS4
-PS4Deals
+xboxone
+oculus
+vive
+paradoxplaza
